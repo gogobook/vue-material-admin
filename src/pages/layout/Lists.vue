@@ -236,7 +236,7 @@
             </div>
           </v-widget>
           <v-card class="mt-3">
-            <v-card-media src="/static/bg/15.jpg" height="300px">
+            <v-responsive src="/static/bg/15.jpg" height="300px">
               <v-layout column class="media">
                 <v-card-title>
                   <v-btn dark icon>
@@ -255,7 +255,7 @@
                   <div class="display-1 pl-5 pt-5">Ali Conners</div>
                 </v-card-title>
               </v-layout>
-            </v-card-media>
+            </v-responsive>
             <v-list two-line>
               <v-list-tile href="">
                 <v-list-tile-action>

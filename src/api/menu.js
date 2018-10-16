@@ -41,7 +41,7 @@ const Menu =  [
   },  
   { header: 'UI Elements' },
   {
-    title: 'General',
+    title: 'UI',
     group: 'components',
     component: 'components',
     icon: 'tune',
@@ -84,13 +84,13 @@ const Menu =  [
     component: 'layout',
     icon: 'view_compact',
     items: [
-      { name: 'bottom-sheets', title: 'Bottom panels', component: 'components/bottom-sheets' },
+      { name: 'bottom-sheets', title: 'Bottom sheets', component: 'components/bottom-sheets' },
       { name: 'expansion-panels', title: 'Expansion panels', component: 'components/expansion-panels' },
       { name: 'footer', title: 'Footer', component: 'components/footer' },
       { name: 'lists', title: 'Lists', component: 'components/lists' },
       { name: 'jumbotrons', title: 'Jumbotrons', badge: 'new', component: 'components/jumbotrons' },
       { name: 'menus', title: 'Menus', component: 'components/menus' },
-      // { name: 'navigation-drawers', title: 'Navigation drawers', component: 'components/navigation-drawers' },
+      { name: 'navigation-drawers', title: 'Navigation drawers', component: 'components/navigation-drawers' },
       { name: 'tabs', title: 'Tabs', component: 'components/tabs' },
       { name: 'toolbar', title: 'Toolbars', component: 'components/toolbar' },
       { name: 'timeline', title: 'Timeline', component: 'components/timeline' },
@@ -102,7 +102,7 @@ const Menu =  [
     component: 'forms',
     icon: 'edit',
     items: [
-      { name: 'basic', title: 'General', component: 'components/basic-forms' },
+      { name: 'basic', title: 'Basic Forms', component: 'components/basic-forms' },
       { name: 'selects', title: 'Selects', badge: 'new', component: 'components/selects' },
       { name: 'selection-controls', title: 'Selection Controls', component: 'components/selection-controls' },
       { name: 'text-fields', title: 'Text Fields', component: 'components/text-fields' },
